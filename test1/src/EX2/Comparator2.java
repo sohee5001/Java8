@@ -47,6 +47,8 @@ public class Comparator2 {
 //        }
 
 
+        String a = null;
+
 //      문제 : (람다식)  배달 지역은 서울이다. 서울에 배달될 사과 목록 중에 색깔은 초록색이며 130g 이상인 사과만 출력해라.
         List<Apple> regions = Utils.deliveryRegionList.stream()
                 .filter((region) -> region.getRegionName().startsWith("서"))
