@@ -32,7 +32,7 @@ public class Behavior {
     }
     public static void getGreenAppleList(List<Apple> apples, Predicate<Apple> p){
         for(Apple apple : apples){
-            //150이상 녹색인것.aa
+            //150이상 녹색인것.
             if(p.test(apple)){
                 result1++;
             }

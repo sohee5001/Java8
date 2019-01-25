@@ -42,7 +42,7 @@ public class Stream {
     }
 //    public static void getGreenAppleList(List<Apple> apples, Predicate<Apple> p){
 //        for(Apple apple : apples){
-//            if(p.test(apple)){
+//            if(p.testddd(apple)){
 //                result1++;
 //            }
 //        }
